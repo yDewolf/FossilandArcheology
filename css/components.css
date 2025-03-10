@@ -1,3 +1,7 @@
+nav{
+    display: flex;
+}
+
 .brand_img{
-    width: 9%;
+    width: 35%;
 }
