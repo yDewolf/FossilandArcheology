@@ -1,7 +1,44 @@
-nav{
-    display: flex;
+.topo{
+    background-color: #ffffff;
 }
 
-.brand_img{
-    width: 35%;
+.logos{
+  text-align: left;
+  vertical-align: left;
+}
+
+.loogos{
+  margin-left: auto;
+  display: flex; 
+}  
+
+.bannerindex{
+  align-items: center;
+}
+
+.banner {
+  width: 100%;
+}   
+
+.nav-item{
+  display: flex;
+  align-items: center;
+
+  a{
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+  }
+}
+
+.nav-item{ 
+    a{
+      margin-top: px;
+      margin-right: 25px;
+      margin-left: 25px;
+       color: #000000;
+    }
+}
+
+a.nav-link.active{
+    color: white;
 }
