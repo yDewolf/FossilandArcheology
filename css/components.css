@@ -7,9 +7,14 @@
   vertical-align: left;
 }
 
-.loogos{
+.right-nav{
   margin-left: auto;
   display: flex; 
+
+  li{
+    border: #000000 solid 2px;  
+    border-radius: 10px;
+  }
 }  
 
 .bannerindex{
@@ -42,3 +47,19 @@
 a.nav-link.active{
     color: white;
 }
+
+
+.banner-div{
+  margin: auto;  
+  text-align: center;
+
+  img{
+    width: 95%;
+    height: 810px;
+  }
+}
+
+    
+
+
+
