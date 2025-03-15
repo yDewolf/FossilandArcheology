@@ -7,5 +7,24 @@
 
 .card{
     width: 30%;
-    margin: auto        ;
+    margin: auto;
+    transition: all .2s ease-in-out; 
+
+    .card-body{
+        height: 150px;
+    }
+
+    img{
+        height: 400px; 
+        object-fit: cover;
+    }
+}
+
+.card:hover{
+    transform: scale(1.01); 
+}
+
+h2{
+    margin-top: 30px;
+    font-family: "monocraft";
 }
