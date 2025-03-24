@@ -1,0 +1,33 @@
+.nav, .nav-right {
+    display: flex;
+    width: 100%;
+}
+
+.nav-logo {
+    width: 150px;
+}
+
+.nav-items {
+    width: 100%;
+
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.align-right {
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-items, .nav {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+}
