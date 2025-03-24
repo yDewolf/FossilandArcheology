@@ -16,7 +16,7 @@
             <div class="container-fluid">
                 <nav class="navbar">
                     <div class="container">
-                      <a class="logo" href="index.html">
+                      <a class="logo" href="?page=home">
                         <img src="imgs/brand.png" width="150" >
                       </a>
                     </div>
@@ -29,19 +29,19 @@
                 <div class="barra">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" aria-current="page" href="?page=home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="support.html">Support</a>
+                    <a class="nav-link" aria-current="page" href="?page=support">Support</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="credits.html">Credits</a>
+                    <a class="nav-link" aria-current="page" href="?page=credits">Credits</a>
                   </li>
                 </div>
                 <div class="right-nav">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="login.html">Login</a>
+                      <a class="nav-link" aria-current="page" href="?page=login">Login</a>
                     </li>   
               </div>
              </div>

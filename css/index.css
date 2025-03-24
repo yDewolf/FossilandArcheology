@@ -1,21 +1,24 @@
 .cards{
-    width: 80%;
+    padding: 30px;
     margin: auto;
     margin-top: 70px;
+
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card{
-    width: 30%;
-    margin: auto;
+    margin: 15px;
+    width: 300px;
     transition: all .2s ease-in-out; 
 
     .card-body{
-        height: 200px;
+        width: 300px;
     }
 
     img{
-        height: 400px; 
+        height: 300px;
         object-fit: cover;
     }
 }
